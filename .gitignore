@@ -1,0 +1,11 @@
+
+#genaral dir
+__MACOSX/
+
+#zip
+*.zip
+
+#pycache
+__pycache__
+*.pyc
+.DS_Store
