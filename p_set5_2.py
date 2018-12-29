@@ -11,13 +11,13 @@ for i in range(10000):
     # print(X)
     simulation.append(X)
 ind=np.arange(30,61,1)
-plt.hist(simulation,ind,edgecolor="black",alpha=0.5)
+plt.hist(simulation,ind,edgecolor="black",alpha=0.2)
 
 stats.norm.pdf(47,5,48.5)
 
 x=np.arange(30, 61,0.01)
 
-plt.fill_between(x,stats.norm.pdf(x,loc=50,scale=np.sqrt(100/12))*10000,color="green",alpha='0.7',edgecolor="red")
+plt.fill_between(x,stats.norm.pdf(x,loc=50,scale=np.sqrt(100/12))*10000,color="green",alpha=0.5,edgecolor="red")
 
 
 
@@ -25,3 +25,6 @@ plt.fill_between(x,stats.norm.pdf(x,loc=50,scale=np.sqrt(100/12))*10000,color="g
 
 
 plt.show()
+
+
+phenotypeGivenGenotypeMendelianFactor

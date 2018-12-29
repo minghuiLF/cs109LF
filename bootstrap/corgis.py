@@ -58,7 +58,7 @@ for  i in range(10000):
     sub_sam2=random.sample(list(unipop),m)
     ## two sample way(functions) give a very different answer
 
-    
+
     sub_sample_variance1 =n/(n-1)*np.var(sub_sample1)
 
     sub_sample_variance2 =m/(m-1)*np.var(sub_sample2)
